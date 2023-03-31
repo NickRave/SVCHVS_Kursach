@@ -1,0 +1,39 @@
+
+body {
+    color: rgb(0, 0, 0);
+    font-family: "open sans", "arial", sans-serif;
+    background: #eee;
+}
+
+.about{
+    max-width: 500px;
+    position: relative;
+    margin: 40px auto;
+    border-left-width: 150px;
+    width: 1em;
+    background-clip: padding-box;
+}
+.about h3 {
+    line-height: 25px;
+    margin-left: 150px;
+    width: 10em;
+    color: #000000;
+}
+.about p{
+    line-height: 25px;
+    margin-left: 150px;
+    width: 50em;
+    color: #000000;
+}
+
+@media ( min-width: 480px) {
+
+    .about {
+
+        max-width: 500px;
+        position: relative;
+        margin: 40px auto;
+        border-left-width: 90px;
+        background-clip: padding-box;
+    }
+}
